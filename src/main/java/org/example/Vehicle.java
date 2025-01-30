@@ -12,6 +12,7 @@ public class Vehicle {
         this.engineSize = engineSize;
     }
 
+    //all setters and getters
     public void setNumberOfWheels(int numberOfWheels) {
         this.numberOfWheels = numberOfWheels;
     }

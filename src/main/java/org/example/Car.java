@@ -1,6 +1,6 @@
 package org.example;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle{ //taking all attributes from vehicle
     String brand;
 
     public void setBrand(String brand) {
