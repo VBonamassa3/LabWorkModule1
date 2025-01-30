@@ -16,6 +16,7 @@ public class Car extends Vehicle{
     }
 
     public void displayInfo(){
+        System.out.println("Here is everything about this car");
         System.out.println("Number of wheels: "+numberOfWheels);
         System.out.println("Color: "+color);
         System.out.println("Type of fuel used: "+fuelType);

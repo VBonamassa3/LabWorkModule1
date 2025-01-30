@@ -5,13 +5,13 @@ public class Vehicle {
     String color, fuelType;
     float engineSize;
 
-    public Vehicle(int numberOfWheels, float engineSize) {
+    public Vehicle() {
         this.numberOfWheels = numberOfWheels;
         this.color = " ";
         this.fuelType = " ";
         this.engineSize = engineSize;
     }
-/*
+
     public void setNumberOfWheels(int numberOfWheels) {
         this.numberOfWheels = numberOfWheels;
     }
@@ -19,7 +19,7 @@ public class Vehicle {
     public int getNumberOfWheels() {
         return this.numberOfWheels;
     }
- */
+
     public void setColor(String color) {
         this.color = color;
     }
@@ -35,7 +35,7 @@ public class Vehicle {
     public String getFuelType() {
         return this.fuelType;
     }
-/*
+
     public void setEngineSize(float engineSize) {
         this.engineSize = engineSize;
     }
@@ -43,5 +43,5 @@ public class Vehicle {
     public float getEngineSize() {
         return this.engineSize;
     }
- */
+
 }
