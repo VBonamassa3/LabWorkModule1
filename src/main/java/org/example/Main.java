@@ -16,7 +16,7 @@ public class Main {
         System.out.println(two.getBrand()); //testing getBrand method
         System.out.println();
         two.setColor("blue");
-        two.setEngineSize(2);
+        two.setEngineSize(3);
         two.setNumberOfWheels(4);
         two.setFuelType("regular");
         two.displayInfo();
